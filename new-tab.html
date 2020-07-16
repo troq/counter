@@ -1,0 +1,32 @@
+<head>
+  <style>
+    body {
+      font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    }
+    .center-screen {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+    }
+    #current {
+      font-size: 80px;
+      cursor: pointer;
+    }
+    .record {
+      opacity: 0.5;
+    }
+    #hours, #minutes {
+      font-size: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="center-screen">
+    <div id="current"><span id="hours">0</span> hr <span id="minutes">0</span> min</div>
+    <div class="record">Longest streak: <span id="record">0</span> hours</div>
+  </div>
+  <script src="./index.js"></script>
+</body>

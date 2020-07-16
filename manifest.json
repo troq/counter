@@ -1,0 +1,10 @@
+{
+  "name": "Counter",
+  "description": "Counts",
+  "version": "0.1",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "new-tab.html"
+  },
+  "manifest_version": 2
+}
